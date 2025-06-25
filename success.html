@@ -29,6 +29,12 @@
         document.getElementById("dismissbtn").addEventListener("click", function () {
       window.location.href = "index.html";
     });
+  
+  const params = new URLSearchParams(window.location.search);
+  const email = params.get('email');
+  if (email) {
+    document.getElementById('success-text').textContent = email;
+  }
     </script>
   </body>
 </html>
