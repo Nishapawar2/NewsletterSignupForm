@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  background-color: #37394f;
+  font-family: Roboto, sans-serif;
+  color: #ffffff;
+ 
+
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px;
+  width: 800px;
+  color: #000000;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+.sign-up-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#email {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.sub-btn,#dismiss-btn {
+  padding: 0.7rem;
+  background-color: #2b2c5a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+footer a {
+  background-color: #ff6357;
+  border: 1px solid #ff6357;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.tick-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ff6257;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.tick-icon::before {
+  content: "\2713"; /* Unicode checkmark */
+  color: white;
+  font-size: 24px;
+}
+
+.successcard{
+    position : absolute;
+    top:30%;
+    left: 30%;
+
+}
+
+.successmain{
+  background-color: #ffffff;
+  padding: 30px;
+  width: 200px;
+  color: #000000;  
+  border-radius: 10px;
+}
