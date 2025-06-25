@@ -41,7 +41,7 @@ ul li {
   border-radius: 5px;
   width: 100%;
 }
-.sub-btn,#dismiss-btn {
+.sub-btn,.dismiss-btn {
   padding: 0.7rem;
   background-color: #2b2c5a;
   color: white;
