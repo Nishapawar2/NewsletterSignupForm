@@ -11,7 +11,7 @@
       <div class="successmain">
             <h1 class="thanks-for-sub">Thanks for subscribing!</h1>
             <p>
-                A confirmation email has been sent to <span class="success-text"></span>. Please open it and click the button inside to confirm your subscription.
+                A confirmation email has been sent to <span class="success-text" id="successtext"></span>. Please open it and click the button inside to confirm your subscription.
             </p>
             <button class="dismiss-btn" id="dismissbtn">Dismiss Message</button>  
       </div>
@@ -33,7 +33,7 @@
   const params = new URLSearchParams(window.location.search);
   const email = params.get('email');
   if (email) {
-    document.querySelector(success-text).textContent = email;
+    document.getElementById('successtext').textContent = email;
   }
     </script>
   </body>
